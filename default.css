@@ -38,9 +38,13 @@ strong {
   font-weight: 500;
 }
 
+span {
+  font-size: 600;
+  color: #fc6058;
+}
+
 p,
 li,
-span,
 label,
 input,
 textarea {
@@ -180,7 +184,7 @@ h6 {
   display: block;
   margin: 0 auto;
   height: 250px;
-  width: 250px;
+  width: 25 0px;
   /* object-fit: cover; */
   /* background-size: 90%; */
   border: 2px solid var(--borderColor);
@@ -347,6 +351,56 @@ h6 {
   color: #4b5156;
   font-size: 14px;
 }
+
+/* contact */
+
+#contact .contact {
+  flex-direction: column;
+  max-width: 1200px;
+  margin: 0 auto;
+  width: 90%;
+}
+
+#contact .contact-items {
+  width: 100%;
+}
+#contact .contact-item {
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 0px 0px 18px 0 #0000002c;
+  transition: 0.3s ease box-shadow;
+}
+#contact .contact-item:hover {
+  box-shadow: 0px 0px 5px 0 #0000002c;
+}
+#contact .icon {
+  width: 70px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+#contact .contact-info h1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+#contact .contact-info h2 {
+  font-size: 1.3rem;
+  line-height: 2rem;
+  font-weight: 500;
+}
+.icon img {
+  width: 100%;
+}
+
+/* contact */
 
 #contact-form {
   display: block;
